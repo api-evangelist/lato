@@ -1,22 +1,94 @@
 aid: lato
 name: Lato
-description: Lato is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lato (LATO Labs) is a San Francisco company building an agent-native research
+  and simulation platform for investors. Its agents source and conduct hundreds
+  of voice interviews with verified domain experts and customers in any language,
+  each returned with a recording, transcript and thematic analysis, then combine
+  those interviews with thousands of documents from public sources and a fund's
+  own proprietary knowledge into a single commercial study. The study becomes a
+  live simulation of the market that analysts can question and run scenarios
+  against to predict where a market is headed. Investors use Lato for commercial
+  due diligence, expert interviews, market sizing, competitive mapping, customer
+  interviews, pricing studies, deal sourcing, inbound screening and portfolio
+  value creation, compressing research that traditionally costs hundreds of
+  thousands of dollars and takes weeks into hours. The product integrates with
+  the tools investment teams already run on, including Outlook, SharePoint,
+  Gmail, Google Drive, Slack, Teams, Excel, Affinity, Attio, Harmonic and
+  Granola. Lato was founded by Tymek Staniszewski (CEO) and Tien Chu (CTO), is
+  backed by Y Combinator (Summer 2026), and builds on Anthropic, OpenAI and
+  ElevenLabs. As of this profile Lato publishes no public developer API,
+  documentation or SDKs; the company surface is captured here for discovery and
+  the repository will be re-enriched when a developer program appears.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://latolabs.io/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/lato/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: researched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Agents
+- Market Research
+- Due Diligence
+- Investment
+- Venture Capital
+- Private Equity
+- Simulation
+- Voice
 apis: []
+common:
+- type: Website
+  url: https://www.latolabs.io/
+- type: PrivacyPolicy
+  url: https://www.latolabs.io/privacy
+- type: TermsOfService
+  url: https://www.latolabs.io/terms
+- type: Support
+  url: https://www.latolabs.io/contact
+- type: Demo
+  url: https://www.latolabs.io/book
+- type: LinkedIn
+  url: https://linkedin.com/company/latoio
+- type: CompanyProfile
+  name: Y Combinator company profile
+  url: https://www.ycombinator.com/companies/lato
+- type: SecurityTxt
+  url: well-known/lato-security.txt
+- type: WellKnown
+  url: well-known/lato-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/lato-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.latolabs.io/security
+- type: DomainSecurity
+  url: security/lato-domain-security.yml
+- type: LLMsTxt
+  url: llms/lato-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
