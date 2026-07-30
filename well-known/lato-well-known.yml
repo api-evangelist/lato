@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.latolabs.io/.well-known/
+host: https://www.latolabs.io
+documents:
+- path: /.well-known/security.txt
+  standard: RFC 9116
+  status: 200
+  content_type: text/plain; charset=utf-8
+  file: lato-security.txt
+- path: /.well-known/openid-configuration
+  standard: OpenID Connect Discovery 1.0
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  standard: RFC 8414
+  status: 404
+- path: /.well-known/api-catalog
+  standard: RFC 9727
+  status: 404
+- path: /.well-known/ai-plugin.json
+  standard: OpenAI plugin manifest
+  status: 404
+notes: >-
+  Lato (LATO Labs) publishes no public API as of this probe. api.latolabs.io and
+  docs.latolabs.io do not resolve to a developer surface, and /docs, /api,
+  /llms.txt, /robots.txt and /sitemap.xml all return 404. The only well-known
+  document served is a valid RFC 9116 security.txt.

@@ -1,0 +1,6 @@
+# Lato security contact — RFC 9116
+Contact: mailto:security@latolabs.io
+Expires: 2027-06-01T00:00:00.000Z
+Policy: https://latolabs.io/security
+Preferred-Languages: en
+Canonical: https://latolabs.io/.well-known/security.txt
