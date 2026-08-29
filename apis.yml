@@ -20,6 +20,17 @@ description: >-
   ElevenLabs. As of this profile Lato publishes no public developer API,
   documentation or SDKs; the company surface is captured here for discovery and
   the repository will be re-enriched when a developer program appears.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
