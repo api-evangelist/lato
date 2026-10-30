@@ -64,33 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lato (LATO Labs) is a San Francisco company building an agent-native research and simulation
-platform for investors. Its agents source and conduct hundreds of voice interviews with verified
-domain experts and customers in any language, combine them with thousands of public and
-proprietary documents into a single commercial study, and turn that study into a live market
-simulation that can be questioned and run scenarios against. Investors use Lato for commercial
-due diligence, expert interviews, market sizing, competitive mapping, pricing studies, deal
-sourcing, inbound screening, and portfolio value creation.
+Lato (LATO Labs) is a San Francisco company building an agent-native research and simulation platform for investors. Its agents source and conduct hundreds of voice interviews with verified domain experts and customers in any language, each returned with a recording, transcript and thematic analysis, then combine those interviews with thousands of documents from public sources and a fund's own proprietary knowledge into a single commercial study. The study becomes a live simulation of the market that analysts can question and run scenarios against to predict where a market is headed. Investors use Lato for commercial due diligence, expert interviews, market sizing, competitive mapping, customer interviews, pricing studies, deal sourcing, inbound screening and portfolio value creation, compressing research that traditionally costs hundreds of thousands of dollars and takes weeks into hours. The product integrates with the tools investment teams already run on, including Outlook, SharePoint, Gmail, Google Drive, Slack, Teams, Excel, Affinity, Attio, Harmonic and Granola. Lato was founded by Tymek Staniszewski (CEO) and Tien Chu (CTO), is backed by Y Combinator (Summer 2026), and builds on Anthropic, OpenAI and ElevenLabs. As of this profile Lato publishes no public developer API, documentation or SDKs; the company surface is captured here for discovery and the repository will be re-enriched when a developer program appears.
 
-Founded by Tymek Staniszewski (CEO) and Tien Chu (CTO). Backed by Y Combinator (Summer 2026).
+**Areas:** Company · Artificial Intelligence · Agents · Market Research · Due Diligence · Investment · Venture Capital · Private Equity · Simulation · Voice
 
-- Website: https://www.latolabs.io/
-- Y Combinator: https://www.ycombinator.com/companies/lato
+## Lato on APIs.io
 
-## API status
+Everything profiled for Lato is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lato/](https://apis.io/providers/lato/)** — or go straight to one of the APIs or properties below.
 
-As of 2026-07-19 Lato publishes **no public developer API**, API documentation, SDKs, or OpenAPI
-definition. `api.latolabs.io` and `docs.latolabs.io` do not serve a developer surface, and
-`/docs`, `/api`, `/pricing`, `/blog`, `/llms.txt`, `/robots.txt` and `/sitemap.xml` return 404.
-The `apis[]` collection is intentionally empty; this repository will be re-enriched if and when a
-developer program appears.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Artifact | Path | Method |
-|---|---|---|
-| security.txt (RFC 9116) | `well-known/lato-security.txt` | searched |
-| Well-known index | `well-known/lato-well-known.yml` | searched |
-| Vulnerability disclosure | `security/lato-vulnerability-disclosure.yml` | searched |
-| Domain security | `security/lato-domain-security.yml` | probed |
-| llms.txt | `llms/lato-llms.txt` | generated |
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [lato](https://apis.io/servers/lato/lato/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lato Domain Security](https://apis.io/security/lato/lato-domain-security/)
+- [Lato Vulnerability Disclosure](https://apis.io/security/lato/lato-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.latolabs.io/)
+- [Support](https://www.latolabs.io/contact)
+- [Security](https://www.latolabs.io/security)
+- [Terms of service](https://www.latolabs.io/terms)
+- [Privacy policy](https://www.latolabs.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 12.8** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lato/](https://apis.io/providers/lato/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lato: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lato/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
